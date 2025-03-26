@@ -32,4 +32,13 @@ public class Registro {
     public void setModo(String modo) {
         this.modo = modo;
     }
+
+    @Override
+    public String toString() {
+        return "Registro{" +
+                "alumno=" + alumno +
+                ", fecha=" + fecha +
+                ", modo='" + modo + '\'' +
+                '}';
+    }
 }

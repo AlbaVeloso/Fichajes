@@ -25,7 +25,7 @@ public class Fichajes implements IFichajes {
     @Override
     public String cambiar_modo(String modo) {
         this.modo=modo;
-        return this.modo;
+        return this.modo + " Cambiado correctamente";
     }
 
     @Override
